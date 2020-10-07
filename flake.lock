@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "hello": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1602093787,
+        "narHash": "sha256-BSvgeaeYwUBXO+QRWz5u3CaE5Gae5ReU7jn6n6Wi4zQ=",
+        "owner": "balsoft",
+        "repo": "hello-flake",
+        "rev": "ec33d24012d552157582b5afb0cecece9133b2c9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "balsoft",
+        "repo": "hello-flake",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1601171649,
+        "narHash": "sha256-G3RUAi2DUq6r3ntASLS+LZC/Eamot55W1+xmBOgEh3M=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "84d74ae9c9cbed73274b8e4e00be14688ffc93fe",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "hello": "hello",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
